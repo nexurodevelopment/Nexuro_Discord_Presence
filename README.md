@@ -69,15 +69,15 @@ USAGE ======================
 ======================================================================
 PLACEHOLDERS FOR TEMPLATE ======
 ----------------------------------------------------------------------
-{id}   Your server ID
-{name} Your in-game name
-{count} Current player count
-{max}   Max players (reads sv_maxclients, with fallback)
-{street} Current street (and crossing if present)
-{zone}  Current zone label (e.g., Downtown Vinewood)
-{time}  In-game time HH:MM (if UseIngameClock = true)
-{ping}  Player ping in ms (if ShowPing = true)
-{srv}   Server name (from sv_hostname or sv_projectName)
+{id}   Your server ID, 
+{name} Your in-game name, 
+{count} Current player count, 
+{max}   Max players (reads sv_maxclients, with fallback), 
+{street} Current street (and crossing if present), 
+{zone}  Current zone label (e.g., Downtown Vinewood), 
+{time}  In-game time HH:MM (if UseIngameClock = true), 
+{ping}  Player ping in ms (if ShowPing = true), 
+{srv}   Server name (from sv_hostname or sv_projectName), 
 
 Unresolved placeholders are removed cleanly.
 
