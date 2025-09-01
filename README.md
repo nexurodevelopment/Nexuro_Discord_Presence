@@ -7,7 +7,7 @@ No ESX/QBCore imports — works on any server. Shows player ID, player count,
 current street/zone, optional server name, buttons, and more.
 
 ======================================================================
-FEATURES
+FEATURES =====================
 ----------------------------------------------------------------------
 - Standalone (no framework dependencies)
 - Dynamic location (street / crossing, zone)
@@ -19,7 +19,7 @@ FEATURES
 - Rate-limit aware update loop & periodic re-sync (every 60s)
 
 ======================================================================
-REQUIREMENTS
+REQUIREMENTS =====================
 ----------------------------------------------------------------------
 - FiveM server (latest recommended)
 - A Discord Application with Rich Presence Art Assets uploaded
