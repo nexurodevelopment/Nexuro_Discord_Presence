@@ -19,13 +19,13 @@ FEATURES =====================
 - Rate-limit aware update loop & periodic re-sync (every 60s)
 
 ======================================================================
-REQUIREMENTS =====================
+REQUIREMENTS ================
 ----------------------------------------------------------------------
 - FiveM server (latest recommended)
 - A Discord Application with Rich Presence Art Assets uploaded
 
 ======================================================================
-INSTALLATION GUIDE
+INSTALLATION GUIDE ============
 ----------------------------------------------------------------------
 1) Create a Discord Application
    - Open the Discord Developer Portal -> New Application
@@ -57,7 +57,7 @@ NOTE: Rich Presence is primarily shown in the desktop client, mobile clients
 often do not display it.
 
 ======================================================================
-USAGE
+USAGE ======================
 ----------------------------------------------------------------------
 - Command: /presence
   Forces a refresh of the presence text (handy while configuring).
@@ -67,7 +67,7 @@ USAGE
   Direct Connect, website).
 
 ======================================================================
-PLACEHOLDERS FOR TEMPLATE
+PLACEHOLDERS FOR TEMPLATE ======
 ----------------------------------------------------------------------
 {id}   Your server ID
 {name} Your in-game name
@@ -82,7 +82,7 @@ PLACEHOLDERS FOR TEMPLATE
 Unresolved placeholders are removed cleanly.
 
 ======================================================================
-TROUBLESHOOTING
+TROUBLESHOOTING =============
 ----------------------------------------------------------------------
 - No presence shown:
   * Ensure Discord desktop client is running
@@ -106,7 +106,7 @@ TROUBLESHOOTING
 
 
 ======================================================================
-CREDITS
+CREDITS =====================
 ----------------------------------------------------------------------
 Nexuro Development / Liquid_Juice
 Resource scaffolding & docs: Nexuro Development
